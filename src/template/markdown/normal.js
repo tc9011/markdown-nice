@@ -89,10 +89,28 @@ li {
 * 背景色 background: gray;
 */
 blockquote {
+  font-style: normal;
+  padding: 10px;
+  position: relative;
+  line-height: 1.8;
+  text-indent: 0;
+  border: none;
+  color: #888;
+}
+
+blockquote:before {
+  content: "“";
+  display: inline;
+  color: #555555;
+  font-size: 4em;
+  font-family: Arial, serif;
+  line-height: 1em;
+  font-weight: 700;
 }
 
 /* 引用文字 */
 blockquote p {
+  font-family: "Biaodian Pro Serif GB","Numeral LF Serif",Georgia,"Times New Roman","Han Kaiti GB",cursive,serif
 }
 
 /* 链接 */
@@ -137,6 +155,8 @@ figcaption {
 
 /* 行内代码 */
 p code, li code {
+  color: rgb(68, 153, 231);
+  font-weight: 700;
 }
 
 /* 非微信代码块
