@@ -156,7 +156,7 @@ figcaption {
 /* 行内代码 */
 p code, li code {
   color: rgb(68, 153, 231);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* 非微信代码块
