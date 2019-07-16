@@ -1,4 +1,4 @@
-export default 
+export default
 `/* 全局属性
  * 页边距 padding: 30px;
  * 全文字体 font-family: ptima-Regular;
@@ -35,22 +35,45 @@ h1:after {
 
 /* 二级标题 */
 h2 {
+  text-align: center;
 }
 
 /* 二级标题内容 */
 h2 span {
+  color: rgb(68, 153, 231);
+  font-size: 20px;
 }
 
 /* 二级标题修饰 请参考有实例的主题 */
 h2:after {
+  content: ' /';
+  color: rgb(68, 153, 231);
+  font-size: 20px;
+}
+
+h2:before {
+  content: '/ ';
+  color: rgb(68, 153, 231);
+  font-size: 20px;
 }
 
 /* 三级标题 */
 h3 {
+  border-left: 5px solid rgb(68, 153, 231);
+  font-weight: bold;
+  line-height: 16px;
+  color: rgb(68, 153, 231);
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 5px; 
+  border-top-color: rgb(68, 153, 231); 
+  border-bottom-color: rgb(68, 153, 231); 
+  border-right-color: rgb(68, 153, 231);
 }
 
 /* 三级标题内容 */
 h3 span {
+  font-size: 16px;
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -74,6 +97,7 @@ blockquote p {
 
 /* 链接 */
 a {
+  color: rgb(68, 153, 231);
 }
 
 /* 加粗 */
@@ -124,8 +148,10 @@ pre code {
 
 /* 脚注文字 */
 .footnote-word {
+  color: rgb(68, 153, 231);
 }
 
 /* 脚注上标 */
 .footnote-ref {
+  color: rgb(68, 153, 231);
 }`
