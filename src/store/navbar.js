@@ -40,7 +40,7 @@ if (!window.localStorage.getItem(TEMPLATE_NUM)) {
 
 // 如果为空先把数据放进去
 if (!window.localStorage.getItem(CODE_NUM)) {
-  window.localStorage.setItem(CODE_NUM, 0);
+  window.localStorage.setItem(CODE_NUM, 3);
 }
 
 // 获取之前选择的主题状态
