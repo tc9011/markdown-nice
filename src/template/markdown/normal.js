@@ -19,6 +19,7 @@ export default
  * 首行缩进 text-indent: 2em;
  */
 p {
+  line-height: 2em;
 }
 
 /* 一级标题 */
