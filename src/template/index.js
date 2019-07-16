@@ -4,6 +4,7 @@ import custom from "./markdown/custom";
 import ink from "./markdown/ink";
 import purple from "./markdown/purple";
 import cyan from "./markdown/cyan";
+import zhihu from "./markdown/zhihu";
 
 import content from "./content";
 
@@ -23,7 +24,8 @@ export default {
     custom,
     ink,
     purple,
-    cyan
+    cyan,
+    zhihu
   },
   code: {
     atomOneDark,

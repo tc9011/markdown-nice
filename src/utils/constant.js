@@ -29,12 +29,12 @@ export const LEAVE_DELAY = 0.0;
 export const TEMPLATE_OPTIONS = [
   {
     id: "normal",
-    name: "默认主题",
+    name: "微信公众号",
     author: "zhning12"
   },
   {
-    id: "orange",
-    name: "小橙",
+    id: "zhihu",
+    name: "知乎",
     author: "zhning12"
   },
   {
