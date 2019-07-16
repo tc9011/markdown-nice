@@ -63,7 +63,31 @@ export const TEMPLATE_CUSTOM_NUM = TEMPLATE_OPTIONS.length - 1;
 
 export const CODE_OPTIONS = [
   {
+    id: "wechat",
+    name: "微信代码主题"
+  },
+  {
+    id: "atomOneDark",
+    name: "atom-one-dark"
+  },
+  {
+    id: "atomOneLight",
+    name: "atom-one-light"
+  },
+  {
     id: "monokai",
     name: "monokai"
+  },
+  {
+    id: "github",
+    name: "github"
+  },
+  {
+    id: "vs2015",
+    name: "vs2015"
+  },
+  {
+    id: "xcode",
+    name: "xcode"
   }
 ];
